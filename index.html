@@ -114,18 +114,12 @@
           <div class="item slide-two">
             <div class="container">
               <div class="carousel-caption">
-                <!-- <h2>Waves of Grace</h2>
-                <p class="lead">Receive the unceasing wave after wave, after wave, after wave of Grace God has for you.</p>
-                <p><a class="btn btn-lg btn-primary" href="ministry.html" role="button">Learn more &rarr;</a></p>-->
               </div>
             </div>
           </div>
           <div class="item slide-three">
             <div class="container">
               <div class="carousel-caption">
-                <!--<h2>Grace and Truth</h2>
-                <p class="lead">For God did not send his Son into the world to condemn the world, but to save the world through him. <em>John 3:17</em></p>
-                <p><a class="btn btn-lg btn-primary" href="image-gallery.html" role="button">Browse gallery &rarr;</a></p>-->
               </div>
             </div>
           </div>
@@ -139,7 +133,7 @@
               <p>This Weeks Readings and Bulletin- March 15th, 2015</p>
         	</div>
           <!-- ***************** Update Below Weekly ********************* -->
-            <a class="btn btn-lg btn-primary" href="bulletins/2015/3-15-2015.pdf" role="button" style="margin:7px;">View Bulletin</a> 
+            <a class="btn btn-lg btn-primary" href="bulletins/2015/3-15-2015.pdf" role="button" style="margin:7px; id="bulletin">View Bulletin</a> 
             <a class="btn btn-lg btn-primary" href="readings/2015/3-22-2015.pdf" role="button" style="margin:7px;">View Readings</a> 
 
           </div>     
@@ -385,6 +379,11 @@
 
   ga('create', 'UA-58302316-2', 'auto');
   ga('send', 'pageview');
+
+// Using jQuery Event API v1.3
+$('#bulletin').on('click', function() {
+  ga('send', 'event', 'button', 'click', 'nav-buttons');
+});
 
 </script>
   
