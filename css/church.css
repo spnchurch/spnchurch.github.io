@@ -449,10 +449,10 @@ top: 25%;
 	
 } 
 .slide-two {
-	background:url(../images/church-man-sea.jpg); 
-	background-repeat: no-repeat; 
-	background-size:cover; 
-	background-position: 50% 0%;
+	background:url(../images/symphony.png); 
+	background-repeat:repeat; 
+	/* background-size:cover;  */
+	background-position: 50% 15%;
 }
 .slide-three {
 	background:url(../images/church-man-hope.jpg);
@@ -460,6 +460,7 @@ top: 25%;
 	background-size:cover; 
 	background-position: 50% 0%;
 }
+
 /*========== 4. UPCOMING EVENT ==============*/
 
 .event-cta {
