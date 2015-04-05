@@ -493,6 +493,14 @@ top: 25%;
 }
 }
 
+ @media (min-width: 992px) and (max-width:1200px) {
+.event-cta .btn {
+ padding:5px 25px;
+ width:100%;
+
+}
+}
+
 .event-details .ed-title {
 	display:block;
 	text-transform:uppercase;
