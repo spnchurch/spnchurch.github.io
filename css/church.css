@@ -449,9 +449,9 @@ top: 25%;
 	
 } 
 .slide-two {
-	background:url(../images/church-man-sea.jpg); 
-	background-repeat: no-repeat; 
-	background-size:cover; 
+	background:url(../images/brickwall.png); 
+	background-repeat: repeat; 
+
 	background-position: 50% 0%;
 }
 .slide-three {
