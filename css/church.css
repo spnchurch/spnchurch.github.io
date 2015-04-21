@@ -460,6 +460,11 @@ top: 25%;
 	background-size:cover; 
 	background-position: 50% 0%;
 }
+.slide-four {
+	background:url(../images/paper.png);
+	background-repeat: repeat; 
+	background-position: 50% 0%;
+}
 
 /*========== 4. UPCOMING EVENT ==============*/
 
