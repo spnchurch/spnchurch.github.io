@@ -461,9 +461,10 @@ top: 25%;
 	background-position: 50% 0%;
 }
 .slide-four {
-	background:url(../images/paper.png);
-	background-repeat: repeat; 
-	background-position: 50% 0%;
+	background:url(../images/beach.jpg);
+	background-repeat: no-repeat; 
+	background-size:cover; 
+	background-position: 50% 40%;
 }
 
 /*========== 4. UPCOMING EVENT ==============*/
