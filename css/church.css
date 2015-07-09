@@ -403,18 +403,17 @@ left: 0;
 
 /* Carousel base class */
 
-@media (max-width:768px) {
-.carousel {
-	height: 650px;
-	margin-top:10px;
-}
-
-}
+@media (max-width: 768px){
+    .carousel {
+      height: 450px;
+      margin-top: 20px;
+      }
+   }
 @media (min-width:769px) {
 .carousel {
 	height: 650px;
-	margin-top:20px;
-}
+	margin-top:25px;
+	}
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
