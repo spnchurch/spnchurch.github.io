@@ -406,7 +406,7 @@ left: 0;
 @media (max-width: 768px){
     .carousel {
       height: 450px;
-      margin-top: 20px;
+      margin-top: 10px;
       }
    }
 @media (min-width:769px) {
