@@ -409,12 +409,22 @@ left: 0;
       margin-top: 10px;
       }
    }
-@media (min-width:769px) {
+
+@media (min-width:769px) and (max-width: 1000px) {
+.carousel {
+	height: 650px;
+	margin-top:10px;
+	}
+}
+
+@media (min-width:1001px) {
 .carousel {
 	height: 650px;
 	margin-top:25px;
 	}
 }
+
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
 	z-index: 10;
